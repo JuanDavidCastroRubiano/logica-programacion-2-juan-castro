@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Temperatura</h1>
+
+        <label for="celsiusInput">Ingresa la temperatura en Celsius:</label>
+        <input type="text" id="celsiusInput" placeholder="Ej: 45.5">
+
+        <button id="convertButton">Convertir</button>
+
+        <div id="errorMessage" class="error-message"></div>
+        <div id="results" class="results"></div>
+    </div>
+
+    <!-- Enlazamos el archivo JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
